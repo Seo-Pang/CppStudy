@@ -3,16 +3,14 @@
 #include <iostream>
 
 template <typename Data>
-
 class StackData
 {
 public:
-	Data top;
-
 	StackData();
-	void push(Data item);
+	void push(Data);
 	Data pop();
 
 private:
+	Data top;
 	StackData* node;
 };

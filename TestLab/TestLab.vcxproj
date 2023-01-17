@@ -128,10 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="QueueData.cpp" />
+    <ClCompile Include="QueueNode.cpp" />
     <ClCompile Include="StackData.cpp" />
+    <ClCompile Include="Static.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="QueueData.h" />
+    <ClInclude Include="QueueNode.h" />
     <ClInclude Include="StackData.h" />
+    <ClInclude Include="Static.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

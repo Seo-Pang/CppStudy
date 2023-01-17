@@ -21,9 +21,27 @@
     <ClCompile Include="StackData.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Static.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueData.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueNode.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StackData.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Static.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueData.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueNode.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
